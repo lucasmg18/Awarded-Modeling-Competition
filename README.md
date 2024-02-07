@@ -20,7 +20,15 @@ Furthermore, the project explored the potential of Generative Adversarial Networ
 This part is described and implemented in the files [Modelo Data Augmentation](https://github.com/lucasmg18/Awarded-Modeling-Competition/blob/main/CODE/Modelo_generacion_data_augmentation.ipynb), [Modelo Generacion Gan](https://github.com/lucasmg18/Awarded-Modeling-Competition/blob/main/CODE/Modelo_generacion_gan.ipynb).
 
 #### **Experimental Results and Evaluation**
-The effectiveness of our classification model was rigorously tested using various datasets, including the original, augmented, and GAN-generated ones. The evaluation metrics employed, such as accuracy, F1-score, and sensitivity, demonstrated the model's exceptional performance, when trained on the original dataset and also in the augmented datasets generated.
+The effectiveness of our classification model was rigorously tested using various datasets, including the original, augmented, and GAN-generated ones. The evaluation metrics employed, such as accuracy, F1-score, and sensitivity, demonstrated the model's exceptional performance, when trained on the original dataset and also in the augmented datasets generated.  
+In the following table we can see the results, scored by the chosen metrics, of the CNN Classification Model trained with the different datasets including the original dataset and the generated datasets of the solution:
+| Utilized Dataset    | Test Error    | Accuracy | F1-Score | Sensitivity | Custom Metric         |
+|---------------------|---------------|----------|----------|-------------|-----------------------|
+| Original Dataset    | 0.024357      | 0.993177 | 0.992709 | 0.991694    | 0.992884              |
+| Generated Dataset 1 | 1.526816      | 0.899436 | 0.878473 | 0.898398    | 0.896136              |
+| Generated Dataset 2 | 0.923319      | 0.883862 | 0.868885 | 0.879858    | 0.881015              |
+| Generated Dataset 3 | 1.506544      | 0.866953 | 0.845595 | 0.863690    | 0.863260              |
+
 
 #### **Conclusion and Future Directions**
 This project represents a significant advancement in fruit classification and synthetic data generation. The successful implementation of CNNs, combined with innovative data augmentation and GAN techniques, has established a robust framework for similar tasks in the field of machine learning and computer vision.
