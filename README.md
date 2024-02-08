@@ -1,5 +1,5 @@
 # Awarded Modeling Competition Solution
-This is the Winner solution to the UCM Business Modeling Competition of 2024 held at the Universidad Complutense de Madrid in Spain in cooperation with the company GMV Innovating Solutions SL.
+This is the Winner solution to the UCM Business Modeling Competition of 2024 in Machine Learning held at the Universidad Complutense de Madrid in Spain in cooperation with the company GMV Innovating Solutions SL.
 ## Competition Website
 This is the link to the website where the competition is published: [UCM Business Modeling Competition](https://matematicas.ucm.es/concurso2023-24)
 ## Team
